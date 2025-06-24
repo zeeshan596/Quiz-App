@@ -1,0 +1,39 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #FFF7ED;
+}
+
+#quiz {
+    text-align: center;
+    font-size: 50px;
+    color: #FB7185;
+}
+
+.subhead-2 {
+    color: #ff5e7e;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+#options_div button {
+    background-color: #fbe3e8;
+    border: 1px solid #f9c8d2;
+    color: #333;
+    padding: 12px 20px;
+    margin: 10px 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+#options_div button:hover {
+    background-color: #ffccd5;
+    color: #000;
+}
+
+#currentQuestion,
+#totalQuestion {
+  font-weight: bold;
+  color: #e75480;
+}
